@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+.titulo{
+    color: #Fc0fc0;
+    background-color: antiquewhite;
+    height: 100vh;
+    
+}
+.parafrafo{
+    font-family: Finger Paint;
+    text-align: center;
+}
+.fundo{
+    align-content: center;
+    
+}

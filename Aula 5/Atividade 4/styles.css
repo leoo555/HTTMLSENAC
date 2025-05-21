@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0
+}
+.paragrafo{
+    text-align: center;
+color: greenyellow;
+font-family: Pacifico;
+font-weight: 50;
+
+}
+
+
+
+.fundo{
+    background-color: blueviolet;
+    height: 100vh;
+    align-content: center;
+}
+
+
+.titulo{
+text-align: center;
+color: blue;
+font-family: Pacifico;
+font-weight: 100;
+
+}

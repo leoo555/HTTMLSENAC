@@ -1,0 +1,31 @@
+
+
+.subtitulo{
+    font-size: 30px;
+    text-align: center;
+   
+    font-family: Philosopher;
+    font-style:italic ;
+}
+.fundo{
+    background-color: goldenrod;
+    height: 100vh;
+    align-content: center;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    
+    font-family: Philosopher;
+    font-style: bold;
+}
+
+.link{
+    font-size: 30px;
+    text-align: center;
+    font-family: Philosopher;
+    font-style: bold;
+    text-decoration: none;
+}
