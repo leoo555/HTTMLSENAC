@@ -58,16 +58,16 @@ align-items: center;
     background-color: black;
     border-radius: 5px;
 }
-.banner{ /*Aqui é o banner do site, o tamanho e a cor dele*/
+.banner{ /*Aqui é o banner/fundo do site, o tamanho e a cor dele*/
     height: 100vh;
     background-color: #310273;
 }
-.banner>img{
+.banner>img{ /*Fundo da imagem ser caracterizado como imagem*/
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-.produtos{
+.produtos{ /* Aqui são os cards que aparece os jogos*/
     height: 100vh;
 }
 .produtos>h1{
