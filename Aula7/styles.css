@@ -1,0 +1,99 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@font-face {
+    font-family: "JockeyOne-Regular" ;
+    src: url(../fonte/JockeyOne-Regular.ttf);
+}
+ 
+*{
+    margin: 0;
+    font-family: "JockeyOne-Regular" ;
+}
+header{
+    background-color: tomato;
+}
+.cabecalho nav{
+background-color: #170236;
+ 
+display: flex;
+padding: 5px;
+justify-content: space-around;
+height: 60px;
+align-items: center;
+
+}
+.navegacao h1{
+    font-size: 18px;
+    font-weight:900 ;
+    color: #ffffff;
+}
+.navegacao>ul{
+    list-style: none;
+    display:flex;
+}
+.menu-principal>li a{
+    margin: 5px;
+
+}
+.menu-principal>li a:hover{ /* aqui é a transição de quando passa o mouse por cima da escrita*/
+    /*text-decoration: underline;*/
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+
+
+}
+.navegacao>ul a{ 
+    text-decoration: none;
+    color: #ffffff;
+    margin: 5px;
+    padding: 3px;
+}
+.navegacao>ul i{
+    font-size: 16px;
+    padding: 5px;
+}
+.link-ativo i{
+    color: #ffffff;
+    background-color: black;
+    border-radius: 5px;
+}
+.banner{ /*Aqui é o banner do site, o tamanho e a cor dele*/
+    height: 100vh;
+    background-color: #310273;
+}
+.banner>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.produtos{
+    height: 100vh;
+}
+.produtos>h1{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 300px);
+
+    gap: 10px;
+
+    padding: 20px 10% 5px 10%;
+}
+.box{
+    height: 280px;
+    width: 200px;
+
+    background-color: tomato;
+    border-radius: 15px;
+
+    text-align: center;
+    align-content: center;
+
+    margin: auto;
+}
