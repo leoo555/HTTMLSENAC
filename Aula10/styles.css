@@ -1,94 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+ 
 
 
-
-* {
+*{
     margin: 0;
     font-family: 'Onest';
 }
  
-.menu-principal>li a {
+.menu-principal{
     margin: 5px;
+    align-items: center;
 }
  
-.menu-principal>li a:hover {
+.menu-principal>li a:hover{
     transition: 1s;
-    background-color: #1c3433;
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: #1C3433;
     border-radius: 5px;
 }
- 
-.cabecalho nav {
-    display: flex;
-    background-color: #1c3433;
-    padding: 5px;
-    justify-content: space-around;  
-    height: 70px;
-    align-items: center;
+.Company {
+   border-radius: 10px;
+   padding: 10px;
+   border: 1px solid white;
    
+ 
 }
  
-.navegacao h1 {
-    font-weight: 900;
-    font-size: 18px;
+.cabecalho nav{
+    display: flex;
+    background-color: #1C3433;
+    padding: 15px;
+    justify-content: space-around;
+    height: 50px;
+    text-align: center;
+    align-items:end;
 }
+ 
  
 .navegacao>ul {
-   
     list-style: none;
     display: flex;
 }
- 
-.navegacao>ul a {
+.navegacao>ul a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 5px;
 }
- 
-.navegacao>ul i {
+.navegacao>ul i{
     padding: 5px;
-    font-size: 16px;
+    font-size: 16px;}
+ 
+.banner{
+    height:100vh;
+    background: linear-gradient(to right, rgba(28, 52, 51, 0.9), rgba(28, 52, 51, 0.4)), url(image\ copy.png) no-repeat center center;
+    object-fit: cover;
+    background-size: cover;
+ 
+}
+.banner>h1 {
+    margin-top: 120px;
+    margin-left: 100px;
+    color: white;
+    font-family: 'ones-bold';
+    font-size: 50px;
+}
+.banner>h1 span{
+    color: #53CC6C;
+}
+.banner>p {
+    font-family: 'ones-regular';
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 50px;
 }
  
-.link-ativo i {
-    color: white;
-    background-color: white;
+.banner>a {
+    text-decoration: none;
+    margin-left: 120px;
+    color: #53CC6C;
+    padding: 20px;
+    border: 1px solid;
     border-radius: 5px;
 }
- 
-.banner {
-    height: 100vh;
-    background-color: blue;
-    
-}
- 
-.banner>img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    
- 
-}
- 
-.produtos h1 {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 30px;
-}
- 
-.grid-box {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    text-align: center;
-    gap: 10px;
-    padding: 20px 10% 5px 10%;
-}
- 
-.titulo-pagina>img{
-    height: 50px;
-   
+.banner>a:hover {
+    transition: 1s;
+    background-color: #53CC6C;
+    color: white;
 }
 
-
+.logo{
+    height: 60px;
+    text-align:right;
+}
  
