@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
  
 
-
 *{
     margin: 0;
     font-family: 'Onest';
@@ -13,7 +12,7 @@
 }
  
 .menu-principal>li a:hover{
-    transition: 1s;
+    transition: 1.5s;
     background-color: rgb(255, 255, 255);
     color: #1C3433;
     border-radius: 5px;
@@ -54,7 +53,7 @@
     height:100vh;
     background: linear-gradient(to right, rgba(28, 52, 51, 0.9), rgba(28, 52, 51, 0.4)), url(image\ copy.png) no-repeat center center;
     object-fit: cover;
-    background-size: cover;
+    background-size:cover;
  
 }
 .banner>h1 {
@@ -91,5 +90,6 @@
 .logo{
     height: 60px;
     text-align:right;
+    
 }
  
