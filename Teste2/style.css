@@ -1,0 +1,97 @@
+@font-face{
+    font-family: 'Onest';
+    src: url(../font/Onest-VariableFont_wght.ttf);
+}
+
+.pagina_1>ul>.
+
+.pagina_1>.cabecalho nav>ul>a{
+    border-radius: 10px;
+    padding: 5px;
+
+    text-decoration: none;
+    text-transform: none;
+
+    color: white;
+    background-color: none;
+
+    margin-right: 20px;
+
+    font-family: 'Onest';
+    font-size: 17px;
+    
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.pagina_1>.cabecalho nav{
+    margin-top: 25px;
+    margin-right: 40px;
+    
+}
+
+.pagina_1>.cabecalho{
+    background-color: rgb(28, 52, 51);
+    
+    display: flex;
+
+    justify-content: space-between;
+    height: 100px;
+
+}
+.pagina_1>.cabecalho>img{
+    height: 59px;
+    width: 194.35px;
+
+    margin-left: 200px;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.pagina_1{
+    background-image:
+     linear-gradient(to right, rgba(28, 52, 51, 0.9), rgba(28, 52, 51, 0.4)),
+     url(../img/Imagen_pagina_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
+
+.pagina_1>h2{
+    margin-top: 10px;
+
+    width: 700px;
+    word-break: break-word; /* Controla como as palavras vão ser quebradas */
+    line-height: 70px; /* Define um espaço vertical entre as linhas */
+
+    font-size: 60px;
+    font-family: 'Onest';
+
+    color: white;
+}
+
+.pagina_1>h2>span{
+    color: #53CC6C;
+}
+
+.pagina_1>p{
+    width: 400px;
+    word-break: break-word;
+    line-height: 150%;
+
+    font-size: 18px;
+    font-family: 'Onest';
+
+    color: white;
+
+    
+}
+
+/* .pagina_1{
+    background-color: linear-gradient(right, green, white);
+} */
