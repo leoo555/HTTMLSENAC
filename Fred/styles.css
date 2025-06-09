@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Onest', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #1C3433;
+}
+
+.cabecalho nav {
+    display: flex;
+    background-color: #1C3433;
+    padding: 15px;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+.menu-principal {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-principal li {
+    margin: 0 10px;
+}
+
+.menu-principal li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+.menu-principal li a:hover {
+    background-color: white;
+    color: #1C3433;
+    border-radius: 5px;
+}
+
+.Company {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(28, 52, 51, 0.9), rgba(28, 52, 51, 0.4));
+    padding: 0 80px;
+    color: white;
+}
+
+.banner-conteudo h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.banner-conteudo h1 span {
+    color: #53CC6C;
+}
+
+.banner-conteudo p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.banner-conteudo a {
+    text-decoration: none;
+    color: #53CC6C;
+    border: 1px solid #53CC6C;
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.banner-conteudo a:hover {
+    background-color: #53CC6C;
+    color: white;
+}
+
+.fred-img {
+    max-height: 500px;
+    margin-left: 40px;
+}
+
+.sessao {
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.sessao h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #1C3433;
+}
+
+.sessao p, .sessao ul {
+    font-size: 18px;
+    color: #444;
+}
+
+.vantagens {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.vantagens li {
+    margin: 10px 0;
+}
+
+.depoimentos blockquote {
+    margin: 20px auto;
+    font-style: italic;
+    width: 80%;
+    color: #333;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.contato input, .contato textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contato button {
+    background-color: #1C3433;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contato button:hover {
+    background-color: #53CC6C;
+}
+
+footer {
+    background-color: #1C3433;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
