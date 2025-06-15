@@ -1,22 +1,71 @@
- .titulo-nome>h1{
-    font-size: 3rem;
- font-weight: 400;
-}
-.titulo-nome>h5{
-    font-size: 1.5rem;
-    font-weight: 300;
-}
-.dados-pessoais,.dados-contato{
-    display: flex;
-    flex-direction: column ;
-}
-.formaca>h3{
- 
-    border-bottom: 2px solid black
-}
-.col{
-    border: 1px solid black;
-    border-radius: 15px;
-    box-shadow: 3px 3px 10px;
+body {
+    background-color: #f3f0ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
 }
 
+h1, h3, h5 {
+    color: #4b2c91; /* Roxo médio para títulos */
+}
+
+.container {
+    padding: 20px;
+}
+
+.cartao {
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cartao:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.titulo-nome h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.titulo-nome h5 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #6c4fc4;
+}
+
+hr {
+    border-top: 2px solid #d2c2f0;
+}
+
+.dados-pessoais, .dados-contato {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #6c4fc4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.formacao h3,
+.experiencia h3,
+.projetos h3,
+.cursos h3 {
+    border-bottom: 2px solid #d2c2f0;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #4b2c91;
+}
+
+.col {
+    margin-bottom: 10px;
+}
