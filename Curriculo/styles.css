@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #f3f0ff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -69,3 +70,26 @@ a:hover {
 .col {
     margin-bottom: 10px;
 }
+=======
+.titulo-nome>h1{
+    font-size: 3rem;
+ font-weight: 400;
+}
+.titulo-nome>h5{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.dados-pessoais,.dados-contato{
+    display: flex;
+    flex-direction: column ;
+}
+.formaca>h3{
+ 
+    border-bottom: 2px solid black
+}
+.col{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px;
+}
+>>>>>>> 4a115b7bcb394c75a5120c6dc933311b98f33a76
