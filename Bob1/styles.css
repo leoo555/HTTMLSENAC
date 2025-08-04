@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.background {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/36/James_and_Bob.jpg'); /* <-- aqui você muda o link da imagem */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.3); /* Transparente */
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 350px;
+  width: 100%;
+  backdrop-filter: blur(8px); 
+  -webkit-backdrop-filter: blur(8px); 
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); 
+}
+}
+
+.login-container h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.login-container p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ou {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #888;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.social-buttons button {
+  flex: 1;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px;
+  cursor: pointer;
+}
+
+
+.google {
+  background-image: url('https://imagepng.org/google-icone-icon/google-icon-1/');
+}
+
+.meta {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/6033/6033716.png');
+  background-size: 18px;
+}
+
+.apple {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg');
+  background-size: 16px;
+}
