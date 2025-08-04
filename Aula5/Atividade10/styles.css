@@ -2,35 +2,10 @@
     margin: 0;
 }
 .fundo{
-    height: 100vh;
+    height: 0vh;
 }
-.quadrado{
-    background-color: tomato;
 
 
-
-
-    background-color: blue;
-    border: 2px solid black;
-    
-    width: 270px;
-    height: 370px;
-    margin-top: 10px;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-
-
-    border-radius: 20;
-
-    text-align: center;
-
-    padding: 10px;
-    /*padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;*/
-
-}
 .quadrado img{
     height: 200px;
     /*margin: 10px;*/
