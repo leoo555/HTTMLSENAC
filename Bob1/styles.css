@@ -10,7 +10,7 @@ body, html {
 }
 
 .background {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/36/James_and_Bob.jpg'); /* <-- aqui você muda o link da imagem */
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/36/James_and_Bob.jpg'); 
   background-size: cover;
   background-position: center;
   height: 100vh;
